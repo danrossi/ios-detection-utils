@@ -1,0 +1,15 @@
+{
+    "name": "ios-detection-utils",
+    "version": "1.0.0",
+    "description": "IOS, Iphone, Ipad, VisionOS detection utils",
+    "main": "build/iosutils.min.js",
+    "module": "build/iosutils.module.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js"
+    },
+    "author": "danielr",
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.1",
+        "rollup": "^2.38.0"
+    }
+}
